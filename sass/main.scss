@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  .navbar-img img{
+    height: 80px;
+    width: 400px;
+  }
+}
+.navbar-header {
+  .menu-hamburger {
+  }
+  .navbar-links {
+    display: none;
+  }
+}

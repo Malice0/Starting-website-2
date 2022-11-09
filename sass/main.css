@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .navbar-img img {
+  height: 80px;
+  width: 400px;
+}
+
+.navbar-header .navbar-links {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
