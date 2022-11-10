@@ -11,7 +11,7 @@
 	<!-- minifier css -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="sass/main.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 
 	<title>page2</title>
 
@@ -28,7 +28,7 @@
 			<a class="navbar-img" href="index.html"><img src="img/agence-la-panthere-monochrome.svg "
 					alt="paris web design logo agence web meilleure agence" /></a>
 			<nav class="navbar-header">
-				<div class="menu-hamburger"><i class="fa-solid fa-bars fa-3x"></i>
+				<div class="menu-hamburger"><i class="fa-solid fa-bars fa-2x"></i>
 				</div>
 				<div class="navbar-links">
 					<ul class="navbar-nav">
@@ -112,42 +112,57 @@
 		<!-- ScrollToTop Button END-->
 
 		<!-- Footer - bloc-8 -->
-		<div class="bloc bgc-atomic-tangerine d-bloc">
-			<div class="container bloc-sm">
-				<div class="row">
-					<div class="col-sm-12">
-						<p class="text-center white">
-							Agence La Panthère - Agence web basée à Lyon.
-						</p>
-						<div class="row row-no-gutters social">
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="twitter.com"><span class="fa fa-twitter icon-md"></span></a>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="facebook.com"><span
-											class="fa fa-facebook icon-md"></span></a>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="dribbble.com"><span
-											class="fa fa-dribbble icon-md"></span></a>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="instagram.com"><span
-											class="fa fa-instagram icon-md"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
+
+		<footer>
+			<p>
+				Agence La Panthère - Agence web basée à Lyon.<br>
+			</p>
+			<div class="social-content">
+				<span><a class="social-link" href="#"><i class="fa-brands fa-twitter fa-2x"></i></a></span>
+				<span><a class="social-link" href="#"><i class="fa-brands fa-facebook-f fa-2x"></i></a></span>
+				<span><a class="social-link" href="#"><i class="fa-brands fa-dribbble fa-2x"></i></a></span>
+				<span><a class="social-link" href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></span>
+			</div>
+			<div class="footer-content">
+				<div class="">
+					<p>Partenaires</p>
+					<ul>
+						<li><a href="voiture.com">voiture.com</a></li>
+						<li><a href="pizza.com">pizza.com</a></li>
+						<li><a href="matoiture.com">matoiture.com</a></li>
+						<li><a href="immobilierseo.com">immobilierseo.com</a></li>
+					</ul>
+				</div>
+				<div class="">
+					<p>Annuaires liste 1</p>
+					<ul>
+						<li><a href="annuaireagence.com">annuaireagence.com</a></li>
+						<li><a href="annuaireseo.com">annuaireseo.com</a></li>
+						<li><a href="annuairemarketing.com">annuairemarketing.com</a></li>
+						<li><a href="123seoture.com">123seo.com</a></li>
+						<li><a href="123site.com">123site.com</a></li>
+						<li><a href="annuairewordpress.com">annuairewordpress.com</a></li>
+						<li><a href="listeagence.com">listeagence.com</a></li>
+						<li><a href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
+						<li><a href="listeseo.com">listeseo.com</a></li>
+					</ul>
+				</div>
+				<div class="">
+					<p>Annuaires liste 2</p>
+					<ul>
+						<li><a href="betterseo.com">betterseo.com</a></li>
+						<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>
+						<li><a href="seojuicelien.com">seojuicelien.com</a></li>
+						<li><a href="meilleursliens.com">meilleursliens.com</a></li>
+						<li><a href="liensagogo.com">liensagogo.com</a></li>
+						<li><a href="backlink.com">backlink.com</a></li>
+						<li><a href="linkjuiceannuaire.com">linkjuiceannuaire.com</a></li>
+						<li><a href="remontersurgoogle.com">remontersurgoogle.com</a></li>
+						<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</footer>
 		<!-- Footer - bloc-8 END -->
 	</div>
 	<!-- Principal conteneur END -->
@@ -155,13 +170,13 @@
 	<!-- minifier js -->
 	<!-- async/defer -->
 	<script>
-        const menuHamburger = document.querySelector(".menu-hamburger")
-        const navLinks = document.querySelector(".navbar-links")
- 
-        menuHamburger.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
-        })
-</script>
+		const menuHamburger = document.querySelector(".menu-hamburger")
+		const navLinks = document.querySelector(".navbar-links")
+
+		menuHamburger.addEventListener('click', () => {
+			navLinks.classList.toggle('mobile-menu')
+		})
+	</script>
 	<!-- <script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
