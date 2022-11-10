@@ -10,7 +10,8 @@
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- <link rel="stylesheet" type="text/css" href="./css/font-awesome.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="sass/main.css">
 
 	<title>Agence La Panthère</title>
 
@@ -26,32 +27,23 @@
 	<div class="page-container">
 
 		<!-- bloc-0 -->
-		<div class="bloc bgc-white l-bloc ">
-			<div class="container bloc-sm">
-
-				<nav class="navbar row">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
-								alt="paris web design logo agence web meilleure agence" height="40" /></a>
-						<button type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
-							data-target=".navbar-1">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<div class="collapse navbar-1">
-						<ul class="site-navigation nav navbar-nav">
-							<li>
-								<a href="index.html">Accueil</a>
-							</li>
-							<li>
-								<a href="page2.html">page2</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
+		<div class="header">
+			<a class="navbar-img" href="index.html"><img src="img/agence-la-panthere-monochrome.svg "
+					alt="paris web design logo agence web meilleure agence" /></a>
+			<nav class="navbar-header">
+				<div class="menu-hamburger"><i class="fa-solid fa-bars fa-3x"></i>
+				</div>
+				<div class="navbar-links">
+					<ul class="navbar-nav">
+						<li>
+							<a href="#">Accueil</a>
+						</li>
+						<li>
+							<a href="page2.html">page2</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 		<!-- bloc-0 END -->
 
@@ -327,6 +319,18 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
+
+
+	<script>
+		const menuHamburger = document.querySelector(".menu-hamburger")
+		const navLinks = document.querySelector(".navbar-links")
+
+		menuHamburger.addEventListener('click', () => {
+			navLinks.classList.toggle('mobile-menu')
+		})
+	</script>
+	<script src="https://kit.fontawesome.com/66a6e601e6.js" crossorigin="anonymous"></script>
+
 </body>
 
 
