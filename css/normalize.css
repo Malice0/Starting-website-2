@@ -189,11 +189,13 @@
      * 1. Show the overflow in Edge.
      */
   
-  button,
-  input {
+  button {
     /* 1 */
     overflow: visible;
     border: none;
+  }
+  input {
+    display: block;
   }
   
   /**
@@ -279,6 +281,7 @@
   
   textarea {
     overflow: auto;
+    display: block;
   }
   
   /**
